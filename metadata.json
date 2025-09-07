@@ -1,0 +1,5 @@
+{
+  "name": "Dynamic Dreamscape",
+  "description": "An AI-powered app that transforms your selfie into a personalized, illustrated, and narrated storybook using Google's advanced Nano Banana (gemini-2.5-flash-image-preview) model for a truly interactive experience.",
+  "requestFramePermissions": []
+}
