@@ -18,9 +18,17 @@
   <img src="https://img.shields.io/badge/Gemini%20API-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Gemini API"/>
 </div>
 
+<br>
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/78bf9225-93be-411b-a61a-57739368e83e" width="800" alt="Dynamic Dreamscape Animation"/>
+</div>
+
+<br>
+
 Dynamic Dreamscape is a cutting-edge web application that places you at the heart of an epic tale. By harnessing the powerful multimodal capabilities of Google's Gemini, this app transforms a simple selfie into a fully-realized character within a rich, illustrated storybook. Choose your art style, define your genre, and guide the narrative with your own words to create a truly personalized and interactive adventure.
 
-![Generated Scene Example](https://github.com/user-attachments/assets/70432633-d977-4ef3-80a0-214feb841551)
+![Generated Scene Example](https://github.com/user-attachments/assets/87d80ce8-d04b-470a-a508-7266d23ead32)
 
 ## ✨ Key Features
 
@@ -45,7 +53,7 @@ The application employs a sophisticated multi-step generative pipeline powered b
 
 - **Frontend**: React, TypeScript
 - **Styling**: Tailwind CSS
-- **AI Model**: Google Gemini API (gemini-2.5-flash-image-preview)
+- **AI Model**: Google Gemini API (gemini-1.5-flash)
 - **Module Management**: ES Modules with Import Maps
 
 ## 🚀 Getting Started
@@ -71,7 +79,7 @@ The application employs a sophisticated multi-step generative pipeline powered b
 3.  **Set up your environment variables:**
     Create a new file named `.env` in the root of the project and add your Gemini API key:
     ```
-    API_KEY=YOUR_GEMINI_API_KEY_HERE
+    VITE_GEMINI_API_KEY=YOUR_GEMINI_API_KEY_HERE
     ```
 
 4.  **Run the development server:**
@@ -86,22 +94,22 @@ The application employs a sophisticated multi-step generative pipeline powered b
 ````
 
 .
-├── public/               \# Static assets
+├── public/              \# Static assets
 ├── src/
-│   ├── components/       \# Reusable React components
+│   ├── components/      \# Reusable React components
 │   │   ├── Header.tsx
 │   │   ├── ImageUploader.tsx
 │   │   ├── Loader.tsx
 │   │   ├── StoryCanvas.tsx
 │   │   └── StyleSelector.tsx
-│   ├── services/         \# API interaction logic
+│   ├── services/        \# API interaction logic
 │   │   └── geminiService.ts
-│   ├── App.tsx           \# Main application component
-│   ├── constants.ts      \# App-wide constants
-│   ├── index.tsx         \# Entry point
-│   └── types.ts          \# TypeScript type definitions
-├── index.html            \# Main HTML file
-└── ...                   \# Configuration files
+│   ├── App.tsx          \# Main application component
+│   ├── constants.ts     \# App-wide constants
+│   ├── main.tsx         \# Entry point
+│   └── types.ts         \# TypeScript type definitions
+├── index.html           \# Main HTML file
+└── ...                  \# Configuration files
 
 ````
 
